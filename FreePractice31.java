@@ -17,12 +17,12 @@ public class FreePractice31 {
 		}else if(hand == 2){
 			System.out.println("あなたが出したのは（パー）です。");
 		}else {
-			System.out.println("無効の数字です。[１（グー）],[２（チョキ）],[３（パー）]のいずれかの数字を入力してください。");
+			System.out.println("無効の数字です。[０（グー）],[１（チョキ）],[２（パー）]のいずれかの数字を入力してください。");
 		}
 		
 		if(hand == num) {
 			System.out.println("上記により結果はあいこです");
-		}else if(hand == 0 && num == 0 || hand == 1 && num == 2 || hand == 2 && num == 0 ) {
+		}else if(hand == 0 && num == 1 || hand == 1 && num == 2 || hand == 2 && num == 0 ) {
 			System.out.println("上記により結果はあなたの勝ちです");
 		}else if(hand == 0 && num == 2 || hand == 1 && num == 0 || hand == 2 && num == 1 ) {
 			System.out.println("上記により結果はあなたの負けです");
