@@ -20,6 +20,7 @@ public class FreePractice31 {
 			System.out.println("無効の数字です。[０（グー）],[１（チョキ）],[２（パー）]のいずれかの数字を入力してください。");
 		}
 		
+		// 結果表示
 		if(hand == num) {
 			System.out.println("上記により結果はあいこです");
 		}else if(hand == 0 && num == 1 || hand == 1 && num == 2 || hand == 2 && num == 0 ) {
