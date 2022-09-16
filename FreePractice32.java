@@ -1,4 +1,3 @@
-
 public class FreePractice32 {
 	public static void main(String[] args) {
 		int totalNum = 0;
