@@ -8,14 +8,14 @@ public class FreePractice34 {
 			int num = Integer.parseInt(args[i]);
 			if(i % 2 == 1) {
 				kyozin += num;
-				if(i != 1) {
-					System.out.println(i - 1 + "回表" + "巨人の得点は" + num + "です。");
-				}else {
-					System.out.println(i + "回表" + "巨人の得点は" + num + "です。");
-				}
+//				if(i != 1) {
+//					System.out.println(i - 1 + "回表" + "巨人の得点は" + num + "です。");
+//				}else {
+//					System.out.println(i + "回表" + "巨人の得点は" + num + "です。");
+//				}
 			}else {
 				hansin += num;
-				System.out.println(i - 1 + "回裏" + "阪神の得点は" + num + "です。");
+//				System.out.println(i - 1 + "回裏" + "阪神の得点は" + num + "です。");
 			}
 		}
 		if(kyozin > hansin) {
