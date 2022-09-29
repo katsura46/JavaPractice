@@ -11,6 +11,6 @@ public class FreePractice33 {
 				win += 1;
 			}
 		}
-		System.out.println("戦績は" + win + "勝" + lose + "敗です。");
+		System.out.println("あなたの戦績は" + win + "勝" + lose + "敗です。");
 	}
 }
