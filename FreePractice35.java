@@ -1,4 +1,3 @@
-
 public class FreePractice35 {
 	public static void main(String[] args) {
 		int bigNum = 0;
